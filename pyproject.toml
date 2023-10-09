@@ -23,7 +23,11 @@ classifiers = [
 requires-python = ">=3.8"
 dependencies = [
 	"click",
-	"jupyter"
+	"jupyter",
+	"geopandas",
+	"matplotlib",
+	"dask-geopandas",
+	"bokeh"
 ]
 
 
@@ -108,3 +112,6 @@ extensions = [
 	"sphinx.ext.autosummary",
 ]
 html_theme = "sphinx_rtd_theme"
+
+[tool.setuptools]
+py-modules = []
